@@ -29,7 +29,7 @@ module simClockDiv(
 	always @(posedge clk_50Mhz)
 	begin
 		counter <= counter + 1;
-		if(counter == 249) begin
+		if(counter ==125) begin //efectively divide by 250
 			counter <= 0;
 			outputClk <= ~outputClk; 
 		end

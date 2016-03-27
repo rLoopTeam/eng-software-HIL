@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\David\Documents\rPod_HIL\rPod_HIL\topFile.ncd
-OUTFILE=C:\Users\David\Documents\rPod_HIL\rPod_HIL\topFile.bit
+INFILE=C:\Users\David\Documents\GitHub\eng-software-HIL\topFile.ncd
+OUTFILE=C:\Users\David\Documents\GitHub\eng-software-HIL\topFile.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=C:\Users\David\Documents\rPod_HIL\rPod_HIL
+WORKINGDIR=C:\Users\David\Documents\GitHub\eng-software-HIL
 LICENSE=WebPack
-USER_INFO=179060030_0_0_376
+USER_INFO=179060030_0_0_937

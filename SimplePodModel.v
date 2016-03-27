@@ -19,11 +19,16 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module SimplePodModel(
-    input [31:0] accel,
-    input clk_200khz,
-    output [31:0] position,
-    output [31:0] velocity
+    input wire [63:0] accel,
+    input wire clk_200khz,
+    output reg [63:0] position,
+    output reg [63:0] velocity
     );
-
+	
+		always @(posedge clk_200khz)
+		begin
+			velocity <= velocity + accel;
+			position <= position + velocity;
+		end
 
 endmodule
