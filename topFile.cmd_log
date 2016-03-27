@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc3s500e-fg320-4 topFile.ngc topFile.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc3s500e-fg320-4 topFile.ngc topFile.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc3s500e-fg320-4 topFile.ngc topFile.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o topFile_map.ncd topFile.ngd topFile.pcf 
+par -w -intstyle ise -ol high -t 1 topFile_map.ncd topFile.ncd topFile.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topFile.twx topFile.ncd -o topFile.twr topFile.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f topFile.ut topFile.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc3s500e-fg320-4 topFile.ngc topFile.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o topFile_map.ncd topFile.ngd topFile.pcf 
+par -w -intstyle ise -ol high -t 1 topFile_map.ncd topFile.ncd topFile.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topFile.twx topFile.ncd -o topFile.twr topFile.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f topFile.ut topFile.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.xst" -ofn "C:/Users/David/Documents/rPod_HIL/rPod_HIL/topFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc3s500e-fg320-4 topFile.ngc topFile.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o topFile_map.ncd topFile.ngd topFile.pcf 
+par -w -intstyle ise -ol high -t 1 topFile_map.ncd topFile.ncd topFile.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topFile.twx topFile.ncd -o topFile.twr topFile.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f topFile.ut topFile.ncd 
