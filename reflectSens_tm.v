@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   21:31:59 03/26/2016
-// Design Name:   topFile
-// Module Name:   C:/Users/David/Documents/GitHub/eng-software-HIL/trajectoryTest.v
+// Create Date:   16:26:19 03/28/2016
+// Design Name:   reflectSensors
+// Module Name:   C:/Users/David/Documents/GitHub/eng-software-HIL/reflectSens_tm.v
 // Project Name:  rPod_HIL
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: topFile
+// Verilog Test Fixture created by ISE for module: reflectSensors
 //
 // Dependencies:
 // 
@@ -22,35 +22,36 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module trajectoryTest;
+module reflectSens_tm;
 
 	// Inputs
-	reg CLK_50MHZ;
+	reg [63:0] position = 64'd15240000000;
+	reg clk;
 
 	// Outputs
-	wire [0:7] LED;
-	wire LCD_E;
-	wire LCD_RS;
-	wire LCD_RW;
-	wire [11:8] SF_D;
+	wire reflectF;
+	wire reflectM;
+	wire reflectR;
 
 	// Instantiate the Unit Under Test (UUT)
-	topFile uut (
-		.CLK_50MHZ(CLK_50MHZ), 
-		.LED(LED), 
-		.LCD_E(LCD_E), 
-		.LCD_RS(LCD_RS), 
-		.LCD_RW(LCD_RW), 
-		.SF_D(SF_D)
+	reflectSensors uut (
+		.position(position), 
+		.clk(clk), 
+		.reflectF(reflectF), 
+		.reflectM(reflectM), 
+		.reflectR(reflectR)
 	);
 	
 	always
-		#20 CLK_50MHZ = !CLK_50MHZ;
+		#10 clk = ~clk;
 	
+	always
+		#40 position = position + 2540000.000;
 
 	initial begin
 		// Initialize Inputs
-		CLK_50MHZ = 0;
+		position = 64'd15240000000;
+		clk = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;

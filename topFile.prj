@@ -1,5 +1,0 @@
-verilog work "SimplePodModel.v"
-verilog work "simClockDiv.v"
-verilog work "LCDI.v"
-verilog work "bin2dec64Bit.v"
-verilog work "topFile.v"

@@ -20,18 +20,24 @@
 //////////////////////////////////////////////////////////////////////////////////
 module simClockDiv(
     input clk_50Mhz,
-    output clk_200khz
+    output reg clk_100khz = 1,
+	 output reg clk_1khz = 1
     );
 
-	reg [7:0] counter = 8'b0000000;
-	reg outputClk;
-	assign clk_200khz = outputClk;
+	reg [7:0] counter1 = 8'd0;
+	reg [15:0] counter2 = 16'd0;
 	always @(posedge clk_50Mhz)
 	begin
-		counter <= counter + 1;
-		if(counter ==125) begin //efectively divide by 250
-			counter <= 0;
-			outputClk <= ~outputClk; 
+		counter1 <= counter1 + 1;
+		if(counter1 ==250) begin //efectively divide by 500
+			counter1 <= 1;
+			clk_100khz <= ~clk_100khz; 
+		end
+		
+		counter2 <= counter2 + 1;
+		if(counter2 ==25000) begin //efectively divide by 50000
+			counter2 <= 1;
+			clk_1khz <= ~clk_1khz; 
 		end
 	end
 

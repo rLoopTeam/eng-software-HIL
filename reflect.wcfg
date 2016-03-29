@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/David/Documents/GitHub/eng-software-HIL/reflectSens_tm_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="reflectSens_tm" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/reflectSens_tm/reflectF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectF</obj_property>
+      <obj_property name="ObjectShortName">reflectF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/reflectM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectM</obj_property>
+      <obj_property name="ObjectShortName">reflectM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/reflectR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectR</obj_property>
+      <obj_property name="ObjectShortName">reflectR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/position" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">position[63:0]</obj_property>
+      <obj_property name="ObjectShortName">position[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/divideState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">divideState[7:0]</obj_property>
+      <obj_property name="ObjectShortName">divideState[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/frontPos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">frontPos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">frontPos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/middlePos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">middlePos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">middlePos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/rearPos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rearPos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rearPos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/ONE_HUNDRED_FEET" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ONE_HUNDRED_FEET[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ONE_HUNDRED_FEET[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/divideState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">divideState[7:0]</obj_property>
+      <obj_property name="ObjectShortName">divideState[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/frontPos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">frontPos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">frontPos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/middlePos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">middlePos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">middlePos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/reflectSens_tm/uut/rearPos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rearPos[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rearPos[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/David/Documents/GitHub/eng-software-HIL/reflectSens_tm_isim_beh.exe" -prj "C:/Users/David/Documents/GitHub/eng-software-HIL/reflectSens_tm_beh.prj" "work.reflectSens_tm" "work.glbl" 

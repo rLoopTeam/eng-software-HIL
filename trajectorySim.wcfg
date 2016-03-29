@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/David/Documents/GitHub/eng-software-HIL/trajectoryTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="trajectoryTest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/trajectoryTest/uut/position" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">position[63:0]</obj_property>
+      <obj_property name="ObjectShortName">position[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/velocity" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">velocity[31:0]</obj_property>
+      <obj_property name="ObjectShortName">velocity[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/mph" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mph[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mph[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/reflectF" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectF</obj_property>
+      <obj_property name="ObjectShortName">reflectF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/reflectM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectM</obj_property>
+      <obj_property name="ObjectShortName">reflectM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/reflectR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reflectR</obj_property>
+      <obj_property name="ObjectShortName">reflectR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trajectoryTest/uut/CLK_50MHZ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_50MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_50MHZ</obj_property>
+   </wvobject>
+</wave_config>
